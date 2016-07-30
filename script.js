@@ -8,7 +8,7 @@ var myContainer = document.createElement("div");
 
 var myText = document.createElement("div");
 myText.innerHTML = "Click on the Map and then on the 'add' button to add a specific coordinate." + "<br>" +
-    "You can add as many as you want. After adding all of your coordinates press 'Start seaching'." + "<br>" +
+    "You can add as many as you want. After adding all of your coordinates press 'Start searching'." + "<br>" +
     "Now lay back and and it scanns every 33 seconds at another coordinate, this loops infinite.";
 
 $(myContainer).append(myText);
